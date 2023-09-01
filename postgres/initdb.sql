@@ -8,5 +8,6 @@ CREATE TABLE ejemplo(
 	clave integer NOT NULL,
 	nombre character varying(50),
 	direccion character varying(50),
+	telefono character varying(20),
 	CONSTRAINT pk_clave PRIMARY KEY(clave)
 )

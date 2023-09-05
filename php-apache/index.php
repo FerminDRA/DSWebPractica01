@@ -8,6 +8,7 @@
 <form action="connection.php" method="post">
     <table id="tabGen">
         <thead>
+            
             <tr>
                 <th>Nueva persona</th>
             </tr>

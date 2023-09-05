@@ -5,3 +5,8 @@ RUN apt-get update \
 COPY index.php /var/www/html/
 EXPOSE 80	
 
+
+
+
+
+

@@ -17,6 +17,7 @@
             <td>
                 <table id="tab">
                     <tr>
+                        
                         <td>
                             Clave de usuario: 
                             <input name="clave" type="number">

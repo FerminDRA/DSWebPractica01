@@ -6,6 +6,7 @@
         $host = "172.17.0.2";
         $port = "5432";
         
+        
         $conexion = new PDO("pgsql:host=$host;port=$port;dbname=$dbname", $user, $password);
         $conexion->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         if($conexion){

@@ -4,3 +4,4 @@ RUN apt-get update \
     && docker-php-ext-install pdo pdo_pgsql
 COPY index.php /var/www/html/
 EXPOSE 80	
+
